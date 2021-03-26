@@ -78,7 +78,7 @@ csvfiles = glob.glob(os.path.join(mycsvdir, '*.csv'))
 wb_driver = webdriver.Chrome('/usr/bin/chromedriver', chrome_options=chrome_options)
 wb_driver.fullscreen_window()
 
-fb_login = FacebookLogin(email='briancfay@hotmail.com', password='AdGj420Hang', browser='Chrome')
+fb_login = FacebookLogin(email='briancfay@hotmail.com', password='password', browser='Chrome')
 fb_login.login()
 fb_driver = fb_login.driver
 
